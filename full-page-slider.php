@@ -1,6 +1,6 @@
 /*
 Plugin Name: Full Page Slider
-Plugin URI: 
+Plugin URI: https://mwororokevin.github.io
 Description: A WordPress Slider that allows the slider to occupy the full page height on all screen sizes.
 Author: Kevin Mwororo
 Author URI: https://mwororokevin.github.io
