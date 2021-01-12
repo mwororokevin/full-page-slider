@@ -15,9 +15,10 @@ Version: 1.0.0
 */
 
 add_action( 'admin_menu', 'fps_admin_menu_setup' );
+
 // Adding the plugin as a menu item to the WordPress Admin Sidebar
 function fps_admin_menu_setup () {
-    add_menu_page(
+    add_menu_page (
         'Full Page Slider Page',
         'Full Page Slider',
         'manage_options',
@@ -25,6 +26,7 @@ function fps_admin_menu_setup () {
         'fps_page_html'
     );
 }
+
 
 function fps_page_html (){
     echo "<h1>Hello World!</h1>";
